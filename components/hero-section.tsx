@@ -13,9 +13,10 @@ export function HeroSection() {
         <Image
           src="/nk_creative_logo-hero.png"
           alt="logo background"
-          fill
+          layout="fill"
+          objectFit="contain"
           quality={100}
-          className="object-contain opacity-5"
+          className="opacity-5"
         />
       </div>
       

@@ -85,7 +85,6 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
                 src={data.images[selectedImage] || "/placeholder.svg"}
                 alt={`${data.title} ${selectedImage + 1}`}
                 fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-contain"
               />
 
@@ -144,7 +143,6 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
                     src={image || "/placeholder.svg"}
                     alt={`Thumbnail ${index + 1}`}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </button>
@@ -191,7 +189,6 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
               src={data.images[selectedImage] || "/placeholder.svg"}
               alt={`${data.title} ${selectedImage + 1}`}
               fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="object-contain"
             />
             

@@ -14,7 +14,6 @@ const nextConfig = {
         hostname: 'cdn.jsdelivr.net',
       },
     ],
-    qualities: [75, 100],
   },
 }
 
