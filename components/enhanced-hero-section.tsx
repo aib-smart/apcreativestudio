@@ -24,9 +24,9 @@ export function EnhancedHeroSection({
   // Default images based on page type - only 3 images per type
   const defaultImages = {
     portfolio: [
-      "https://cdn.jsdelivr.net/gh/iykex/ap-creative@main/images/portfolio/logos/lg_01.jpg",
-      "https://cdn.jsdelivr.net/gh/iykex/ap-creative@main/images/portfolio/brochure/brc_01.jpg",
-      "https://cdn.jsdelivr.net/gh/iykex/ap-creative@main/images/portfolio/flyers/fl_01.jpg",
+      "https://cdn.jsdelivr.net/gh/aib-smart/apcreativestudio@main/images/portfolio/logos/lg_01.jpg",
+      "https://cdn.jsdelivr.net/gh/aib-smart/apcreativestudio@main/images/portfolio/brochure/brc_01.jpg",
+      "https://cdn.jsdelivr.net/gh/aib-smart/apcreativestudio@main/images/portfolio/flyers/fl_01.jpg",
     ],
   }
 
