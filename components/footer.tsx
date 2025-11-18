@@ -60,7 +60,7 @@ export function Footer() {
               >
                 <div className="flex items-center space-x-3 mb-6">
                 <Link href="/" className="flex items-center space-x-3 group">
-            <img src={theme === 'dark' ? '/logo-dark.png' : '/logo-light.png'} alt="NK Creative Logo" className="h-24 w-auto" />
+            <img src={theme === 'dark' ? '/logo-dark.png' : '/logo-light.png'} alt="AP Creative Logo" className="h-10 w-auto" />
           </Link>
                 </div>
 
@@ -144,16 +144,16 @@ export function Footer() {
                       +1 778 903 8871
                     </span>
                   </div>
-                  {/* <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3">
                     <Phone size={16} className="text-muted-foreground" />
                     <span className="text-muted-foreground">
                     +233 20 832 9357
                     </span>
-                  </div> */}
+                  </div>
                   <div className="flex items-center gap-3">
                     <Mail size={16} className="text-muted-foreground" />
                     <span className="text-muted-foreground">
-                      hello@nkcreativestudio.net
+                      hello@apcreativestudio.net
                     </span>
                   </div>
                   <div className="flex items-start gap-3">
@@ -181,7 +181,7 @@ export function Footer() {
           >
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} NK Creative Studio. All rights
+                © {new Date().getFullYear()} AP Creative Studio. All rights
                 reserved.
               </p>
               {/* <div className="flex gap-6 text-sm">

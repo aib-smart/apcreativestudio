@@ -10,15 +10,15 @@ export async function POST(req: NextRequest) {
   const { name, email, location, phone, date, details } = await req.json();
   try {
     const ownerEmail = resend.emails.send({
-      from: "NK Creative Studio <inquiry@nkcreativestudio.net>",
-      to: "hello@nkcreativestudio.net",
+      from: "AP Creative Studio <inquiry@apcreativestudio.net>",
+      to: "hello@apcreativestudio.net",
       subject: "NEW MESSAGE FROM YOUR WEBSITE",
       replyTo: email,
       react: EmailTemplate({ name, email, location, phone, date, details }),
     });
 
     const userEmail = resend.emails.send({
-      from: "NK Creative Studio <inquiry@nkcreativestudio.net>",
+      from: "AP Creative Studio <inquiry@apcreativestudio.net>",
       to: email,
       subject: "Thank you for your message!",
       react: UserConfirmationTemplate({ name }),
